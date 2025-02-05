@@ -1,6 +1,7 @@
 import { Fira_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/ui/navbar";
+import Footer from "@/app/components/ui/footer";
 
 const firaSans = Fira_Sans({
   weight: "400",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${firaSans.variable} antialiased`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

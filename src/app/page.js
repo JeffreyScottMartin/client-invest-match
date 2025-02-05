@@ -1,5 +1,5 @@
 const Home = () => {
-  return <h1>Invest Match Canada</h1>;
+  return <h1>Development</h1>;
 };
 
 export default Home;

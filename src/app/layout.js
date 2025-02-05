@@ -1,14 +1,10 @@
-import { Fira_Sans, Inter } from "next/font/google";
+import { Fira_Sans } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/app/components/ui/navbar";
 
 const firaSans = Fira_Sans({
   weight: "400",
   variable: "--font-fira-sans",
-  subsets: ["latin"],
-});
-
-const inter = Inter({
-  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -20,7 +16,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${firaSans.variable} ${inter.variable} antialiased`}>
+      <body className={`${firaSans.variable} antialiased`}>
+        <Navbar />
         {children}
       </body>
     </html>

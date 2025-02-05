@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 left-0 w-full bg-white shadow-md border-b border-lightGray/50 z-50">
+    <header className="sticky top-0 left-0 w-full bg-white shadow-md border-b border-lightGray/10 z-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-12">
         {/* Logo */}
         <Image

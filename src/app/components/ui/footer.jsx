@@ -83,7 +83,7 @@ const Footer = () => {
             started!
           </p>
           <p className="mt-2 font-semibold">
-            <Link href="/privacy-policy" className="hover:underline">
+            <Link href="/privacy-policy" className="hover:text-brandLightBlue">
               InvestMatch Privacy Policy
             </Link>
           </p>

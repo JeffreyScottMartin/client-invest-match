@@ -40,9 +40,9 @@ export default function FeatureGrid() {
         {features.map(({ title, description, image }, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-md flex items-start flex flex-row space-x-4 items-center"
+            className="bg-white p-6 rounded-lg shadow-md flex items-start flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 items-center"
           >
-            <div className="basis-1/4 justifty-center text-center object-center ml-4">
+            <div className="basis-1/4 justify-center text-center object-center sm:ml-4">
               <Image
                 src={image}
                 width={75}
@@ -53,11 +53,11 @@ export default function FeatureGrid() {
             </div>
             <div className="basis-3/4 mr-4">
               <h3
-                className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-left`}
+                className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-center sm:text-left`}
               >
                 {title}
               </h3>
-              <p className="font-body text-lg text-darkGray mt-2 text-left">
+              <p className="font-body text-lg text-darkGray mt-2 text-center sm:text-left">
                 {description}
               </p>
             </div>

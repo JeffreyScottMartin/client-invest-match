@@ -16,7 +16,7 @@ const TwoColBlock = (data) => {
       </div>
       <div className="sm:w-1/2 p-5">
         <div className="text">
-          <p className="font-body text-md text-darkGray">{data.content}</p>
+          <p className="font-body text-lg text-darkGray">{data.content}</p>
         </div>
       </div>
     </div>

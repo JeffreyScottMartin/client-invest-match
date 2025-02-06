@@ -5,7 +5,7 @@ const LargeHero = (props) => {
     <section className="relative w-full h-[500px] flex items-center justify-center md:justify-end md:text-right">
       <div className="absolute inset-0 rounded rounded-[30px]">
         <Image
-          src="/home-hero.png"
+          src={props.imageString}
           alt="Consulting Redefined"
           fill
           style={{ objectFit: "cover" }}

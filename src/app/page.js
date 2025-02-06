@@ -33,7 +33,7 @@ const Home = () => {
           content="In an ever-evolving landscape, the need for innovative and adaptive consulting has never been more crucial. At InvestMatch, we provide tailored solutions to help business owners overcome challenges and unlock growth potential. Recognizing the needs of growing enterprises, we provide access to expert advisors to guide informed decision-making."
         />
       </div>
-      <div className="container min-w-dvw min-h-dvh bg-offwhite flex items-center justify-center mb-16 mx-auto">
+      <div className="container min-w-dvw bg-offwhite flex justify-center py-12 mt-8 mb-8 mx-auto">
         <CardList />
       </div>
     </>

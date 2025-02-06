@@ -1,45 +1,65 @@
-import { Handshake, Lightbulb, BarChart, PartyPopper } from "lucide-react";
+import { equiSemibold, equiBold } from "@/app/styles/fonts";
+import Image from "next/image";
 
 const features = [
   {
     title: "Power In Collaboration",
     description:
       "Unlock your business’s full potential. Our specialized knowledge and objective perspectives are the catalysts you need to drive growth.",
-    icon: Handshake,
+    image: "/handshake.svg",
   },
   {
     title: "Harnessing Creativity",
     description:
       "We customize solutions that meet your specific needs, maximizing value without compromising on excellence.",
-    icon: Lightbulb,
+    image: "/lightbulb.svg",
   },
   {
     title: "Growth in the Journey",
     description:
       "Our collaborative approach ensures continuous learning, leading to empowered and informed decisions.",
-    icon: BarChart,
+    image: "/graph.svg",
   },
   {
     title: "Fun Fuels Success",
     description:
       "We believe that fun is essential for productive and sustainable work. Celebrate every milestone, and achieve remarkable results.",
-    icon: PartyPopper,
+    image: "/celebrate.svg",
   },
 ];
 
 export default function FeatureGrid() {
   return (
-    <section className="py-12 w-10/12 justify-center items-center">
-      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-2">
-        {features.map(({ title, description, icon: Icon }, index) => (
+    <section className="w-10/12 justify-center items-center text-center">
+      <h3
+        className={`${equiBold.className} text-5xl text-darkGray leading-tight mb-6`}
+      >
+        <span className="text-lightGray">Your Partner in </span>Problem-Solving
+      </h3>
+      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
+        {features.map(({ title, description, image }, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-md flex items-start space-x-4 items-center"
+            className="bg-white p-6 rounded-lg shadow-md flex items-start flex flex-row space-x-4 items-center"
           >
-            <Icon size={40} className="text-blue-600" />
-            <div>
-              <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
-              <p className="text-gray-600 mt-2">{description}</p>
+            <div className="basis-1/4 justifty-center text-center object-center ml-4">
+              <Image
+                src={image}
+                width={75}
+                height={72}
+                alt={title}
+                loading="lazy"
+              />
+            </div>
+            <div className="basis-3/4 mr-4">
+              <h3
+                className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-left`}
+              >
+                {title}
+              </h3>
+              <p className="font-body text-lg text-darkGray mt-2 text-left">
+                {description}
+              </p>
             </div>
           </div>
         ))}

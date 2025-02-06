@@ -8,12 +8,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["var(--font-inter)", "Helvetica", "sans"],
         body: ["var(--font-fira-sans)", "Helvetica", "sans"],
-        equivolition: ["Equivolition", "Helvetica", "sans"],
       },
       colors: {
         white: "#FFFFFF",
+        offwhite: "#F2F2F2",
         lightGray: "#757575",
         darkGray: "#515151",
         brandLightBlue: "#3399ff",

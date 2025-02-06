@@ -1,35 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: "Equivolition";
-  src: url("/Equivolition-Regular.otf") format("otf");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Equivolition";
-  src: url("/Equivolition-Bold.otf") format("otf");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Equivolition";
-  src: url("/Equivolition-Medium.otf") format("otf");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Equivolition";
-  src: url("/Equivolition-SemiBold.otf") format("otf");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}

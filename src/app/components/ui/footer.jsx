@@ -27,7 +27,7 @@ const socialLinks = [
 
 const Footer = () => {
   return (
-    <footer className="absolute bottom-0 flex left-0 bg-darkGray font-equivolition text-white py-6 w-full items-center">
+    <footer className="flex bg-darkGray font-equivolition text-white py-6 w-full items-center">
       <div className="max-w-5xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center md:items-start">
         {/* Left Section */}
         <div className="items-center text-center lg:mt-4 md:text-left md:w-1/3 mb-4 md:mb-0">

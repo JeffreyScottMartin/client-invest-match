@@ -1,5 +1,3 @@
-import Services from "@/app/services/page";
-import Image from "next/image";
 import React from "react";
 import { equiBold } from "@/app/styles/fonts";
 

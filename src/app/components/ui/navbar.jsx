@@ -37,7 +37,7 @@ const Navbar = () => {
             Insights
           </Link>
           <Link
-            href="/contact"
+            href="/contact-us"
             className="ml-10 px-4 py-1 bg-brandDarkBlue text-white font-semibold rounded-full hover:bg-brandLightBlue transition"
           >
             Get In Touch
@@ -94,7 +94,7 @@ const Navbar = () => {
             Insights
           </Link>
           <Link
-            href="mailto:info@investmatch.ca?subject=Hello.&body=Type your message here."
+            href="/contact-us"
             onClick={() => setIsOpen(false)}
             className="px-4 py-1 bg-brandDarkBlue text-white font-semibold rounded-full hover:bg-brandLightBlue transition text-center"
           >

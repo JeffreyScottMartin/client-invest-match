@@ -19,7 +19,7 @@ const ReverseFullWidthCard = () => {
         </div>
         <div className="basis-1/4 justify-center text-center object-center lg:ml-4">
           <Link
-            href="mailto:info@investmatch.ca?subject=Hello.&body=Type your message here."
+            href="/contact-us"
             className={`px-4 py-2 bg-brandDarkBlue ${equiSemibold.className} text-xl text-white rounded-full hover:bg-brandLightBlue transition`}
           >
             Get In Touch

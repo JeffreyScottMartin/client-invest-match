@@ -13,6 +13,9 @@
 # testing
 /coverage
 
+# godaddy
+/godaddy
+
 # next.js
 /.next/
 /out/

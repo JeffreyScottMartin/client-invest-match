@@ -49,12 +49,12 @@ const Home = () => {
       </div>
       <div className="container mt-12 w-10/12 justify-center mb-12 mx-auto">
         <QuickGlanceServices />
-        <h3
+        <span
           className={`${equiBold.className} text-5xl text-center text-darkGray leading-tight mt-20 mb-20`}
         >
           <span className="text-lightGray">Connecting Networks, </span>
           Amplifying Success
-        </h3>
+        </span>
       </div>
       <div className="container mt-12 w-10/12 justify-center mb-4 mx-auto">
         <FullWidthCard />

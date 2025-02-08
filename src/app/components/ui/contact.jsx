@@ -32,9 +32,9 @@ export default function ContactForm() {
     <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
       <div className="relative mx-auto max-w-xl">
         <div className="text-center">
-          <h2 className="text-3xl font-bold font-display tracking-tight text-darkGray sm:text-4xl">
+          <h1 className="text-3xl font-bold font-display tracking-tight text-darkGray sm:text-4xl">
             Contact Us
-          </h2>
+          </h1>
           <p className="mt-4 text-lg leading-6 text-darkGray">
             Please use the form below to contact us. Thank you!
           </p>
@@ -102,6 +102,7 @@ export default function ContactForm() {
             </div>
             <div className="flex justify-end sm:col-span-2">
               <button
+                name="Send Message"
                 type="submit"
                 className="inline-flex items-center rounded-md px-4 py-2 font-medium focus:outline-none focus-visible:ring focus-visible:ring-sky-500 shadow-sm sm:text-sm transition-colors duration-75 text-sky-500 border border-sky-500 hover:bg-sky-50 active:bg-sky-100 disabled:bg-sky-100 disabled:cursor-not-allowed"
               >

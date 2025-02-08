@@ -3,7 +3,7 @@ import { equiSemibold } from "@/app/styles/fonts";
 const AboutUsCardGrid = () => {
   return (
     <section className="w-10/12 justify-center items-center text-center">
-      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="bg-white rounded-lg shadow-md p-6">
           <h3
             className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-left`}
@@ -25,7 +25,7 @@ const AboutUsCardGrid = () => {
             innovative solutions and transformative learning opportunities.
           </p>
         </div>
-        <div className="col-span-2 bg-white rounded-lg shadow-md p-6">
+        <div className="col-span-1 sm:col-span-2 bg-white rounded-lg shadow-md p-6">
           <h3
             className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-left`}
           >

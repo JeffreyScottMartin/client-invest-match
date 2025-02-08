@@ -42,7 +42,7 @@ export default function FeatureGrid() {
             key={index}
             className="bg-white p-6 rounded-lg shadow-md flex items-start flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 items-center"
           >
-            <div className="basis-1/4 justify-center text-center object-center sm:ml-4">
+            <div className="basis-1/4 justify-center text-center object-center lg:ml-4">
               <Image
                 src={image}
                 width={75}
@@ -57,7 +57,7 @@ export default function FeatureGrid() {
               >
                 {title}
               </h3>
-              <p className="font-body text-lg text-darkGray mt-2 text-center sm:text-left">
+              <p className="font-body text-lg text-darkGray mt-2 text-left">
                 {description}
               </p>
             </div>

@@ -12,14 +12,15 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 left-0 w-full bg-white shadow-md border-b border-lightGray/10 z-50">
       <div className="w-10/12 mx-auto flex items-center justify-between h-12">
-        {/* Logo */}
-        <Image
-          src="/branding/logo-2@1x.png"
-          alt="Invest Match Canada"
-          width={150}
-          height={40}
-          priority
-        />
+        <Link href="/" className="hover:text-lightGray transition">
+          <Image
+            src="/branding/logo-2@1x.png"
+            alt="Invest Match Canada"
+            width={150}
+            height={40}
+            priority
+          />
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-10 text-darkGray font-equivolition text-sm tracking-tight">
@@ -93,7 +94,7 @@ const Navbar = () => {
             Insights
           </Link>
           <Link
-            href="/contact"
+            href="mailto:info@investmatch.ca?subject=Hello.&body=Type your message here."
             onClick={() => setIsOpen(false)}
             className="px-4 py-1 bg-brandDarkBlue text-white font-semibold rounded-full hover:bg-brandLightBlue transition text-center"
           >

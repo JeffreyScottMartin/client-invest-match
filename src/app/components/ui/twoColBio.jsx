@@ -4,16 +4,16 @@ const TwoColBio = (data) => {
   return (
     <div className="sm:flex items-center w-[90%] justify-center mb-4 mx-auto">
       <div className="sm:w-1/2 py-10 flex justify-center">
-        <div className="object-center text-left grid grid-cols-2 -mt-12 justify-center items-center">
+        <div className="object-center text-left grid grid-cols-1 lg:grid-cols-2 -mt-12 justify-center items-center">
           <div
             className={`w-48 h-48 flex items-center justify-center rounded-full text-white text-center text-2xl bg-lightGray ${equiBold.className} text-white`}
           >
-            Not
+            Head
             <br />
-            Sure
+            Shot
           </div>
           <div
-            className={`w-48 h-48 flex items-center justify-center rounded-full text-center text-xl bg-offwhite ${equiBold.className} text-darkGray ml-4`}
+            className={`w-48 h-48 flex items-center justify-center rounded-full text-center text-xl bg-offwhite ${equiBold.className} text-darkGray mt-4 lg:mt-0 lg:ml-4`}
           >
             Graham Sogawa,
             <br />

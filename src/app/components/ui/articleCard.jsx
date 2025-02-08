@@ -6,8 +6,8 @@ import { ChevronRight } from "lucide-react";
 
 const ArticleCard = (props) => {
   return (
-    <div className="w-10/12 mx-auto">
-      <div className="block md:hidden flex px-3 py-3">
+    <div className="w-full md:w-10/12 mx-auto">
+      <div className="block md:hidden flex py-3">
         <div className="max-w-sm bg-white shadow-md overflow-hidden">
           <Image
             className="w-full"

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { equiBold } from "@/app/styles/fonts";
+import { equiRegular } from "@/app/styles/fonts";
 
 const LargeHero = (props) => {
   return (
@@ -13,9 +13,9 @@ const LargeHero = (props) => {
           className="z-0 rounded-[25px]"
         />
       </div>
-      <div className="relative z-10 text-center md:text-right">
+      <div className="relative z-10 text-center md:text-right mb-8 sm:mb-0">
         <h1
-          className={`${equiBold.className} text-3xl md:text-3xl lg:text-5xl text-white md:mr-20 md:pt-12 mt-96`}
+          className={`${equiRegular.className} text-4xl md:text-4xl lg:text-5xl text-white md:mr-20 md:pt-12 mt-96`}
         >
           {props.heading}
         </h1>

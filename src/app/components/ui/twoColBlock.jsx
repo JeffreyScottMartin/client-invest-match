@@ -2,8 +2,8 @@ import { equiBold } from "@/app/styles/fonts";
 
 const TwoColBlock = (data) => {
   return (
-    <div className="sm:flex items-center w-[90%] justify-center mb-4 mx-auto">
-      <div className="sm:w-1/2 p-10">
+    <div className="sm:flex items-center lg:w-[90%] justify-center mb-4 mx-auto">
+      <div className="sm:w-1/2 p-4 lg:p-10">
         <div className="object-center text-left">
           {data.heading && (
             <span

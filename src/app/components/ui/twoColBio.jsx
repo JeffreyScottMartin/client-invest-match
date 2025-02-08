@@ -1,5 +1,5 @@
 import { equiBold } from "@/app/styles/fonts";
-
+import Image from "next/image";
 const TwoColBio = (data) => {
   return (
     <div className="sm:flex items-center w-[90%] justify-center mb-4 mx-auto">
@@ -8,9 +8,14 @@ const TwoColBio = (data) => {
           <div
             className={`w-48 h-48 flex items-center justify-center rounded-full text-white text-center text-2xl bg-lightGray ${equiBold.className} text-white`}
           >
-            Head
-            <br />
-            Shot
+            <Image
+              src="/graham_bio.png"
+              alt="Graham Sogawa"
+              width={200}
+              height={200}
+              style={{ objectFit: "cover" }}
+              className="rounded-full shadow-md"
+            />
           </div>
           <div
             className={`w-48 h-48 flex items-center justify-center rounded-full text-center text-xl bg-offwhite ${equiBold.className} text-darkGray mt-4 lg:mt-0 lg:ml-4`}

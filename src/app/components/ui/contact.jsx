@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import Image from "next/image";
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
@@ -29,10 +29,21 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
+    <div className="bg-white shadow-md py-16 px-4 sm:px-6 lg:px-8 lg:py-24">
       <div className="relative mx-auto max-w-xl">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold font-display tracking-tight text-darkGray sm:text-4xl">
+        <div className="text-center object-center">
+          <div className="flex justify-center">
+            <Image
+              src="/branding/logo-2@1x.png"
+              alt="InvestMatch Inc. Logo"
+              width={200}
+              height={100}
+              loading="lazy"
+              style={{ objectFit: "contain" }}
+              className="mb-12"
+            />
+          </div>
+          <h1 className="text-2xl font-bold font-display tracking-tight text-darkGray">
             Contact Us
           </h1>
           <p className="mt-4 text-lg leading-6 text-darkGray">

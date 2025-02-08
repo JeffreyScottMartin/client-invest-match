@@ -47,10 +47,10 @@ const Home = () => {
           content="We collaborate with diverse clients of all sizes, leveraging our expertise to deliver impactful results.  Through our network of channel partners, we continuously expand our capabilities to provide comprehensive support to companies across various industries."
         />
       </div>
-      <div className="container mt-12 w-10/12 justify-center mb-12 mx-auto">
+      <div className="container mt-12 w-10/12 justify-center text-center mb-6 mx-auto">
         <QuickGlanceServices />
         <span
-          className={`${equiBold.className} text-5xl text-center text-darkGray leading-tight mt-20 mb-20`}
+          className={`${equiBold.className} text-5xl text-center text-darkGray leading-tight mb-12`}
         >
           <span className="text-lightGray">Connecting Networks, </span>
           Amplifying Success

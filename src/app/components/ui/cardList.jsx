@@ -31,11 +31,11 @@ const features = [
 export default function FeatureGrid() {
   return (
     <section className="w-10/12 justify-center items-center text-center">
-      <h3
+      <span
         className={`${equiBold.className} text-5xl text-darkGray leading-tight mb-6`}
       >
         <span className="text-lightGray">Your Partner in </span>Problem-Solving
-      </h3>
+      </span>
       <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
         {features.map(({ title, description, image }, index) => (
           <div
@@ -52,11 +52,11 @@ export default function FeatureGrid() {
               />
             </div>
             <div className="basis-3/4 mr-4">
-              <h3
+              <span
                 className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-center sm:text-left`}
               >
                 {title}
-              </h3>
+              </span>
               <p className="font-body text-lg text-darkGray mt-2 text-left">
                 {description}
               </p>

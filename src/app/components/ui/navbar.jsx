@@ -46,6 +46,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation Button */}
         <button
+          name="Mobile Navigation Button"
           className="lg:hidden p-2 focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
@@ -62,7 +63,11 @@ const Navbar = () => {
           transition={{ type: "tween", duration: 0.3 }}
           className="fixed top-0 right-0 w-64 h-full font-equivolition text-sm tracking-tight text-darkGray bg-white shadow-lg p-6 flex flex-col space-y-6 lg:hidden"
         >
-          <button className="self-end p-2" onClick={() => setIsOpen(false)}>
+          <button
+            name="Close Mobile Navigation"
+            className="self-end p-2"
+            onClick={() => setIsOpen(false)}
+          >
             <X size={24} />
           </button>
           <Link

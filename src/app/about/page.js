@@ -26,12 +26,12 @@ const aboutUs = () => {
         <AboutUsCardGrid />
       </div>
       <div className="container mt-12 w-10/12 justify-center mb-12 mx-auto">
-        <h3
+        <span
           className={`${equiBold.className} text-5xl text-center text-darkGray leading-tight mt-20 mb-20`}
         >
           <span className="text-lightGray">Driven by </span>
           Your Success
-        </h3>
+        </span>
       </div>
       <div className="container mt-12 w-10/12 justify-center mb-12 mx-auto">
         <TwoColBio />

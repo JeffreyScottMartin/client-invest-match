@@ -36,7 +36,7 @@ export default function FeatureGrid() {
       >
         <span className="text-lightGray">Your Partner in </span>Problem-Solving
       </span>
-      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12">
         {features.map(({ title, description, image }, index) => (
           <div
             key={index}

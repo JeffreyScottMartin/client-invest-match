@@ -25,7 +25,7 @@ const aboutUs = () => {
       <div className="container min-w-dvw bg-offwhite flex justify-center py-12 mt-8 mb-8 mx-auto">
         <AboutUsCardGrid />
       </div>
-      <div className="container mt-12 w-10/12 justify-center mb-12 mx-auto">
+      <div className="container mt-12 w-10/12 text-center justify-center mb-12 mx-auto">
         <span
           className={`${equiBold.className} text-5xl text-center text-darkGray leading-tight mt-20 mb-20`}
         >

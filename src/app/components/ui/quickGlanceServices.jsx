@@ -3,7 +3,7 @@ import React from "react";
 const QuickGlanceServices = () => {
   return (
     <div className="flex justify-center items-center">
-      <div className="w-[90%] flex flex-wrap text-center justify-center gap-4 p-4 sm:justify-between">
+      <div className="w-[90%] flex flex-wrap text-center justify-center gap-4 p-4 mb-16 sm:justify-between">
         {[
           { text: "Advisory Services", color: "bg-lightGray" },
           { text: "Financial Insight", color: "bg-darkGray" },

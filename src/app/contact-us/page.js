@@ -15,7 +15,7 @@ const contactUs = () => {
           content="At InvestMatch, we're always on the lookout for new channel partnerships. We love to connect with companies that thrive in collaborative environments and value fun as much as we do. Together, let's work on impactful projects and provide outstanding support for our clients!"
         />
       </div>
-      <div className="container min-w-dvw bg-offwhite flex justify-center py-12 mt-8 mb-8 mx-auto">
+      <div className="container min-w-dvw bg-offwhite flex justify-center py-12 mt-8 mx-auto">
         <ContactForm />
       </div>
     </>

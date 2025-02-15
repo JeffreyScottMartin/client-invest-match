@@ -2,6 +2,7 @@ import { Fira_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/app/components/ui/navbar";
 import Footer from "@/app/components/ui/footer";
+import localFont from "next/font/local";
 
 const firaSans = Fira_Sans({
   weight: "400",
@@ -10,8 +11,9 @@ const firaSans = Fira_Sans({
 });
 
 export const metadata = {
-  title: "Invest Match Canada - Staging",
-  description: "Invest Match Canada - Staging",
+  title: "InvestMatch Canada",
+  description:
+    "At InvestMatch, we provide tailored solutions to help business owners overcome challenges and unlock growth potential.",
 };
 
 export default function RootLayout({ children }) {

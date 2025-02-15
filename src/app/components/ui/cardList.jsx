@@ -36,13 +36,13 @@ export default function FeatureGrid() {
       >
         <span className="text-lightGray">Your Partner in </span>Problem-Solving
       </span>
-      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12">
+      <div className="w-[90%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
         {features.map(({ title, description, image }, index) => (
           <div
             key={index}
-            className="bg-white p-6 rounded-lg shadow-md flex items-start flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 items-center"
+            className="bg-white p-6 items-center md:items-start rounded-lg shadow-md flex items-start flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"
           >
-            <div className="basis-1/4 justify-center text-center object-center lg:ml-4">
+            <div className="basis-1/4 lg:mt-8 justify-center text-center object-center lg:ml-4">
               <Image
                 src={image}
                 width={75}
@@ -51,9 +51,9 @@ export default function FeatureGrid() {
                 loading="lazy"
               />
             </div>
-            <div className="basis-3/4 mr-4">
+            <div className="basis-3/4 lg:mr-4 text-center lg:text-left">
               <span
-                className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-center sm:text-left`}
+                className={`${equiSemibold.className} text-3xl text-darkGray leading-tight text-center lg:text-left`}
               >
                 {title}
               </span>
